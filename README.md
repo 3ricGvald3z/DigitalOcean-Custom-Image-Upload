@@ -17,6 +17,7 @@ IMAGE_FORMAT: The format of your image file.
 
 ```./upload_image.sh```
 
+**Note**
 The --wait flag in the command is very important. It tells doctl to wait until the upload and processing are complete, which can take several minutes depending on the image size. This ensures the script doesn't finish before the image is actually ready to be used.
 
 
