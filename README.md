@@ -21,7 +21,7 @@ IMAGE_FORMAT: The format of your image file.
 The --wait flag in the command is very important. It tells doctl to wait until the upload and processing are complete, which can take several minutes depending on the image size. This ensures the script doesn't finish before the image is actually ready to be used.
 
 
-### How do I create a custom image with :dragon:Kali Linux:dragon: for Digital Ocean?
+### How do I create a custom image with :dragon:Kali Linux:dragon: for DigitalOcean?
 
 Creating a custom Kali Linux image for DigitalOcean is a great way to have a pre-configured penetration testing environment ready to go on a cloud Droplet. The process is a bit more involved than just a simple upload, as the image needs to be prepared to work with DigitalOcean's infrastructure.
 
