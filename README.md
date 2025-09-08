@@ -62,6 +62,7 @@ sudo apt install -y cloud-init``
 Since we will need to use SSH to connect to the system on DigitalOcean, the  openssh-server  package needs to be installed (and enabled) as well:
 
 ``sudo  apt  install -y openssh-server``
+
 ``sudo systemctl enable ssh --now``
 
 
