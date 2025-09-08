@@ -19,10 +19,10 @@ OPERATIONAL GUIDE
 The upload_image.sh is executed from your terminal and must be run with root privileges.
 
 # Make the script executable
-chmod +x upload_image.sh
+``chmod +x upload_image.sh``
 
 # Run the setup payload with sudo
-sudo ./upload_image.sh
+``sudo ./upload_image.sh``
 
 
 Follow the on-screen prompts to define your image path and DigitalOcean credentials. The script will handle all dependencies, configuration, and image registration.
