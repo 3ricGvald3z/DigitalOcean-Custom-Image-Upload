@@ -16,7 +16,7 @@ EXECUTION LOG
 
 
 OPERATIONAL GUIDE
-The upload_image.sh binary is executed from your terminal and must be run with root privileges.
+The upload_image.sh is executed from your terminal and must be run with root privileges.
 
 # Make the script executable
 chmod +x upload_image.sh
