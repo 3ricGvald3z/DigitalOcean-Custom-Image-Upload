@@ -1,5 +1,6 @@
 PROJECT <span style="font-family: monospace; color: #00ff00;">//IMAGE_UPLOAD_UTILITY</span>
 PAYLOAD DESCRIPTION
+
 This repository contains a streamlined payload for the rapid deployment of a custom server image to DigitalOcean. The upload_image.sh script automates all core authentication, upload, and registration tasks, preparing your system for a rapid, repeatable build process.
 
 For a full list of mission parameters, refer to the operational guide below.
