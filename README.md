@@ -113,7 +113,7 @@ You can upload the image to DigitalOcean directly, but for large files, it's oft
 Once you have a publicly accessible URL, you can proceed to the final step.
 
 ### Step 5: Upload the Image to DigitalOcean
-Now you can use the bash script provided in the previous response to upload your image.
+Now you can use the bash script to upload your image.
 
 
 ### How to add a ssh key for my custom image for Digital Ocean
