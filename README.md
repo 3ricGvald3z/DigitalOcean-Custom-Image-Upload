@@ -30,7 +30,7 @@ Follow the on-screen prompts to define your image path and DigitalOcean credenti
 SYSTEM REQUIREMENTS
 The conduit is built on core Linux utilities and requires a standard Bash environment. It has been tested on Debian/Ubuntu and CentOS/RHEL systems.
 
-### How do I create a custom image with :dragon:Kali Linux:dragon: for DigitalOcean?
+# How do I create a custom image with :dragon:Kali Linux:dragon: for DigitalOcean?
 
 Creating a custom Kali Linux image for DigitalOcean is a great way to have a pre-configured penetration testing environment ready to go on a cloud Droplet. The process is a bit more involved than just a simple upload, as the image needs to be prepared to work with DigitalOcean's infrastructure.
 
