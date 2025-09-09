@@ -91,8 +91,11 @@ Since we will need to use SSH to connect to the system on DigitalOcean, the  ope
 ### Clean up the image: Before you finalize the image, it's good practice to clean up unnecessary files and logs to reduce the image size.
 
 ``sudo apt autoremove``
+
 ``sudo apt autoclean``
+
 ``sudo rm -rf /var/log/*``
+
 ``sudo history -c``
 
 ### Power off the VM: Once all the preparation is done, shut down the virtual machine.
