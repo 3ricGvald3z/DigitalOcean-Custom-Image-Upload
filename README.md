@@ -59,6 +59,7 @@ This is the most critical part. Your Kali image must be prepared to function cor
 ### Install cloud-init: DigitalOcean uses cloud-init to configure Droplets on first boot. You must install this package inside your Kali VM.
 
 ``sudo apt update
+
 sudo apt install -y cloud-init``
 
 ### Configure ``cloud-init`` for DigitalOcean: You need to tell cloud-init to use the DigitalOcean datasource.
