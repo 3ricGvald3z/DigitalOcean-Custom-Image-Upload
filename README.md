@@ -27,7 +27,7 @@ The upload_image.sh is executed from your terminal and must be run with root pri
 
 Follow the on-screen prompts to define your image path and DigitalOcean credentials. The script will handle all dependencies, configuration, and image registration.
 
-SYSTEM REQUIREMENTS
+## SYSTEM REQUIREMENTS
 The conduit is built on core Linux utilities and requires a standard Bash environment. It has been tested on Debian/Ubuntu and CentOS/RHEL systems.
 
 # How do I create a custom image with :dragon:Kali Linux:dragon: for DigitalOcean?
