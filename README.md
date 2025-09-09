@@ -73,7 +73,10 @@ Since we will need to use SSH to connect to the system on DigitalOcean, the  ope
 
 ``sudo apt install -y openssh-server``
 
-``sudo systemctl enable ssh --now``
+``sudo systemctl start ssh``
+
+``sudo systemctl enable ssh``
+
 
 
 ### Disable root password: Droplets created from custom images require SSH keys for authentication, and password authentication is disabled by default. You must remove the root password.
