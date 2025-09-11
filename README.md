@@ -62,6 +62,7 @@ This is the most critical part. Your Kali image must be prepared to function cor
 
 ``sudo apt install -y cloud-init``
 
+
 ### Configure ``cloud-init`` for DigitalOcean: You need to tell cloud-init to use the DigitalOcean datasource.
 
 ``sudo sh -c "echo 'datasource_list: [ ConfigDrive, DigitalOcean, NoCloud, None ]' > /etc/cloud/cloud.cfg.d/99_digitalocean.cfg"``
